@@ -1,0 +1,41 @@
+location_a,location_b,distance
+Depot,Stop 03,18
+Depot,Stop 06,17
+Depot,Stop 14,13
+Stop 01,Stop 08,21
+Stop 01,Stop 10,11
+Stop 01,Stop 11,11
+Stop 01,Stop 15,16
+Stop 02,Stop 04,8
+Stop 02,Stop 07,13
+Stop 02,Stop 12,14
+Stop 02,Stop 17,19
+Stop 03,Stop 06,6
+Stop 03,Stop 11,17
+Stop 03,Stop 14,9
+Stop 03,Stop 15,16
+Stop 04,Stop 07,7
+Stop 04,Stop 12,8
+Stop 04,Stop 17,26
+Stop 04,Stop 19,9
+Stop 05,Stop 09,12
+Stop 05,Stop 15,9
+Stop 05,Stop 16,17
+Stop 05,Stop 18,13
+Stop 06,Stop 14,4
+Stop 07,Stop 09,14
+Stop 07,Stop 12,11
+Stop 07,Stop 17,30
+Stop 07,Stop 19,12
+Stop 08,Stop 10,10
+Stop 08,Stop 20,12
+Stop 09,Stop 13,27
+Stop 09,Stop 18,14
+Stop 10,Stop 20,16
+Stop 11,Stop 15,10
+Stop 12,Stop 19,2
+Stop 12,Stop 20,13
+Stop 13,Stop 16,12
+Stop 13,Stop 18,16
+Stop 16,Stop 18,4
+Stop 19,Stop 20,11

@@ -1,0 +1,24 @@
+
+Running performance analysis (each time is the average of 5 runs)
+
+Sorting comparison (time in ms)
+       n     Merge Sort    Insertion Sort
+     100         0.1547            0.4086
+     500         1.2092            9.8198
+    1000         2.0864           43.6673
+    2000         4.7974          150.8524
+    4000         9.5572          643.5507
+
+Major steps (time in ms)
+       n    Merge Sort      Knapsack      Dijkstra        NN TSP
+      50        0.0751        2.0575        0.0510        0.0860
+     100        0.1432        4.1813        0.0954        0.3304
+     200        0.3226        8.5577        0.2035        1.3568
+     400        0.8077       21.9410        0.4562        6.5367
+     800        1.8104       39.7272        0.9866       27.3320
+
+Saved to /home/claude/Mini_Courier_Planner/results
+  runtime_results.csv
+  sorting_comparison.png
+  algorithm_runtimes.png
+  major_steps_comparison.png

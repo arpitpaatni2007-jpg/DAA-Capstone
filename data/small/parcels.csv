@@ -1,0 +1,13 @@
+parcel_id,destination,weight,priority,deadline,value
+P01,Dwarka,8,1,6,90
+P02,Palam,5,2,12,50
+P03,Janakpuri,12,3,48,40
+P04,Uttam Nagar,6,1,8,80
+P05,Najafgarh,10,2,24,55
+P06,Vikaspuri,4,3,36,25
+P07,Rajouri Garden,7,1,10,85
+P08,Tilak Nagar,9,2,20,60
+P09,Dwarka,3,3,30,20
+P10,Janakpuri,6,2,16,45
+P11,Palam,11,3,40,35
+P12,Najafgarh,5,1,9,70

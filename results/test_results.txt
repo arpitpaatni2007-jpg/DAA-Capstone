@@ -1,0 +1,59 @@
+
+--- Sorting tests ---
+PASS: Merge Sort matches Python sorted() on random lists
+PASS: Insertion Sort matches Python sorted() on random lists
+PASS: Empty list
+PASS: Single parcel
+PASS: Equal keys keep original order (stable)
+PASS: Original list is not changed
+PASS: Reverse sorted input becomes ordered
+PASS: Sample dataset: highest priority first
+
+--- Knapsack tests ---
+PASS: DP value equals brute force on 40 random cases
+PASS: Selected weight never exceeds capacity (40 random cases)
+PASS: Selected parcels add up to the DP value
+PASS: Textbook example gives 9
+PASS: Capacity 0 selects nothing
+PASS: All parcels too heavy selects nothing
+PASS: All parcels fit, all are selected
+PASS: No parcels
+PASS: small dataset: weight 30 <= capacity 30
+PASS: large dataset: weight 120 <= capacity 120
+PASS: Small dataset matches brute force (value 350)
+
+--- Dijkstra tests ---
+PASS: Hand-checked distances A->B=3, A->C=1, A->D=8
+PASS: Hand-checked path A->D is A, C, B, D
+PASS: Distance to source is 0 and path is just the source
+PASS: Dijkstra equals Floyd-Warshall on 15 random graphs (all sources)
+PASS: Returned path length equals the reported distance
+PASS: Unreachable location gives infinity
+PASS: Unreachable location gives empty path
+PASS: Small dataset: Depot to Uttam Nagar = 13 km
+PASS: Small dataset: path is Depot, Janakpuri, Uttam Nagar
+PASS: Small dataset: Depot to Najafgarh = 22 km
+PASS: Large dataset: Dijkstra equals Floyd-Warshall from Depot
+
+--- Nearest Neighbor TSP tests ---
+PASS: Hand-checked route D, A, B, C, D
+PASS: Hand-checked distance 2 + 3 + 4 + 10 = 19
+PASS: No places to visit gives route D, D with distance 0
+PASS: One place gives a round trip (2 x 2 = 4)
+PASS: Duplicate places are visited once
+PASS: Route distance equals the sum of its legs (20 random cases)
+PASS: Nearest Neighbor is never shorter than the brute force optimum
+
+--- Integration tests (full pipeline) ---
+PASS: small: route starts and ends at the depot
+PASS: small: every destination of selected parcels is visited once
+PASS: small: total 72 km = sum of legs = real road distance
+PASS: small: weight 30 <= capacity 30
+PASS: large: route starts and ends at the depot
+PASS: large: every destination of selected parcels is visited once
+PASS: large: total 306 km = sum of legs = real road distance
+PASS: large: weight 120 <= capacity 120
+PASS: Unknown destination is rejected
+PASS: Zero weight is rejected
+
+Total tests: 47 | Passed: 47 | Failed: 0

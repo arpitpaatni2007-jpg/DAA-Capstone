@@ -1,0 +1,15 @@
+location_a,location_b,distance
+Depot,Palam,7
+Depot,Janakpuri,9
+Depot,Rajouri Garden,12
+Palam,Dwarka,5
+Palam,Najafgarh,15
+Dwarka,Uttam Nagar,6
+Dwarka,Najafgarh,11
+Uttam Nagar,Janakpuri,4
+Uttam Nagar,Vikaspuri,5
+Uttam Nagar,Najafgarh,10
+Janakpuri,Vikaspuri,3
+Janakpuri,Tilak Nagar,5
+Vikaspuri,Rajouri Garden,6
+Tilak Nagar,Rajouri Garden,4
